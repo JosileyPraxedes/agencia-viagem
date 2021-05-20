@@ -54,8 +54,18 @@ button {
 }
 
 .pacotes{
-    background: pink;
-    height: 500px;
+    background: #e7e7e7;
+    padding: 10px;
+    /* height: 500px; */
+}
+
+.pacotes .pacotes-title{
+    width: 100%;
+    text-align: center;
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
 }
 
 .pacotes .card{
@@ -63,7 +73,8 @@ button {
     height: 350px;
     background: #ffffff;
     border-radius: 24px 0;
-    margin: auto;
+    margin: 25px;
+    position: relative;
 }
 
 .pacotes .card-image{
@@ -100,6 +111,33 @@ button {
 .pacotes .card-content h1 {
     font-size: 1rem;
 }
+
+.pacotes .card .card-tag-top {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+} 
+
+
+.pacotes .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 165px;
+    background: #1061dd;
+    border-radius: 0px 8px 8px 0px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
 
 /* responsividade */
 
