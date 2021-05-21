@@ -62,10 +62,15 @@ button {
 .pacotes .pacotes-title{
     width: 100%;
     text-align: center;
+    margin: 25px 0;
 }
 
 .pacotes .pacotes-cards {
     display: flex;
+    max-width: 1440px;
+    margin: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .pacotes .card{
@@ -81,11 +86,11 @@ button {
     width: 250px;
     height: 200px;
     border-radius: 24px 0 0 0;
+    object-fit: cover;
 }
 
 .pacotes .card-content{
     padding: 0 15px;
-
 }
 
 .pacotes .card-content ul {
@@ -126,7 +131,7 @@ button {
     position: absolute;
     left: 0;
     top: 165px;
-    background: #1061dd;
+    background: #762a2e;
     border-radius: 0px 8px 8px 0px;
     padding: 5px 10px;
 }
@@ -136,6 +141,85 @@ button {
     font-size: 0.8rem;
     color: white;
     font-weight: bold;
+}
+
+.servicos{
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+.servicos .servicos-title{
+    width: 100%;
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.servicos .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.servicos .card svg{
+    width: 45px;
+    height: 45px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.servicos .card svg:hover{
+    stroke: #762a2e;
+    transform: scale(1.1); /* aumentar um pouco o tamanho */
+}
+
+.servicos .card h3{
+    font-weight: bold;
+}
+
+.servicos .card .servicos-text{
+    font: grey;
+    font-size: 1.8;
+    text-align: center;
+}
+
+.servicos .card .card-content{
+    height: 180px;
+    text-align: center;
+}
+
+.contato{
+    padding: 60px 20%;
+    background: #000;
+    position: relative;
+}
+
+.contato .contato-card{
+    width: 340px;
+    height: 310px;
+    background: #722213;
+    position: absolute;
+    z-index: 99;
+}
+/* mapa */
+/* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
 }
 
 
@@ -149,7 +233,7 @@ button {
 /* Landscape phones and down */
 @media (max-width: 480px) {
     body{
-        height: calc(100vh - 55px);
+        margin-bottom: 55px;
     } 
     header nav ul{
         position: fixed;
@@ -158,6 +242,8 @@ button {
         width: 100%;
         padding: 0;
         margin: 0;
+
+        z-index: 99;
 
         background: #1d61dd;
         height: 55px;
