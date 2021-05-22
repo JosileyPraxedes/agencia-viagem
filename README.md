@@ -7,8 +7,6 @@
   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
-
 ### Tópicos 
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
@@ -27,9 +25,8 @@ Pequeno projeto básico de um site de viagens, desenvolvido pela [Isadora Stanga
   	<img alt="Página inicial" src="/.github/screenshots/index.png" width="100%">
 </p>
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  	![enter image description here](https://github.com/isadorastan/site-viagem/blob/master/assets/gif-mobile.gif?raw=true)
-</p>
+![enter image description here](https://github.com/isadorastan/site-viagem/blob/master/assets/gif-mobile.gif?raw=true)
+
 
 ## Como rodar a aplicação :arrow_forward:
 
