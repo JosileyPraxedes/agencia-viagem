@@ -17,7 +17,7 @@
 
 ## Descrição do projeto 
 
-Pequeno projeto básico de um site de viagens, desenvolvido pela [Isadora Stangarlin](https://github.com/isadorastan) do canal [Papo de Dev](https://youtube.com/playlist?list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs), cobrindo conceitos básicos de flexbox, como: flex-direction, justify-content e align-items. Também deixando todo o site responsivo utilizando media queries.
+Projeto básico de um site de viagens, desenvolvido pela [Isadora Stangarlin](https://github.com/isadorastan) do canal [Papo de Dev](https://youtube.com/playlist?list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs), cobrindo conceitos básicos de flexbox, como: flex-direction, justify-content e align-items. Também deixando todo o site responsivo utilizando media queries.
 
 ## Layout da Aplicação :dash:
 
