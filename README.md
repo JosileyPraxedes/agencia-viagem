@@ -40,10 +40,7 @@
 $ git clone https://github.com/JosileyPraxedes/agencia-viagem
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd nlw1
-
-# Vá para a pasta da aplicação Front End
-$ cd web
+$ cd agencia-viagem
 
 # Instale as dependências
 $ npm install
