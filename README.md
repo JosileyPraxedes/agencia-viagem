@@ -3,10 +3,8 @@
 <p align="center">
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
   <img src="http://img.shields.io/static/v1?label=HTML5&message=2.6.3&color=red&style=for-the-badge&logo=html"/>
-  <img src="http://img.shields.io/static/v1?label=Ruby%20On%20Rails%20&message=6.0.2.2&color=red&style=for-the-badge&logo=ruby"/>
-  <img src="http://img.shields.io/static/v1?label=TESTES&message=%3E100&color=GREEN&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=CSS&message=3&color=blue&style=for-the-badge&logo=html"/>
+  <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
 > Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
@@ -15,18 +13,14 @@
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
-:small_blue_diamond: [Funcionalidades](#funcionalidades)
-
-:small_blue_diamond: [Deploy da Aplicação](#deploy-da-aplicação-dash)
-
-:small_blue_diamond: [Pré-requisitos](#pré-requisitos)
+:small_blue_diamond: [Deploy da Aplicação](#layout-da-aplicação-dash)
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
 ## Descrição do projeto 
 
 <p align="justify">
-  Descrição breve do projeto compondo um paragrafo ou dois. 
+  Pequeno projeto básico de um site de viagens, desenvolvido pela [Isadora Stangarlin](https://github.com/isadorastan) do canal [Papo de Dev](https://youtube.com/playlist?list=PLOUrDmh7c7mVzTETBVBerrMawaLd-4RMs), cobrindo conceitos básicos de flexbox, como: flex-direction, justify-content e align-items. Também deixando todo o site responsivo utilizando media queries.
 </p>
 
 ## Layout da Aplicação :dash:
@@ -55,10 +49,6 @@ $ npm run start
 
 # A aplicação será aberta na porta:3000 - acesse http://localhost:3000
 ```
-
-... 
-
-Coloque um passo a passo para rodar a sua aplicação. **Dica: clone o próprio projeto e verfique se o passo a passo funciona**
 
 ## Linguagens, dependências e libs utilizadas :books:
 
