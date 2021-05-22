@@ -29,6 +29,10 @@
   	<img alt="Página inicial" src="/.github/screenshots/index.png" width="100%">
 </p>
 
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  	![enter image description here](https://github.com/isadorastan/site-viagem/blob/master/assets/gif-mobile.gif?raw=true)
+</p>
+
 ## Como rodar a aplicação :arrow_forward:
 
 ```
